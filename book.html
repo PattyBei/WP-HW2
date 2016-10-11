@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title="圖書館借書系統">
+  </head>
+
+  <body>
+    <h1>圖書館借書系統</h1>
+    <form>
+      <p><b>書名&nbsp:&nbsp</b><input type="text" name="bookName" placeholder="請填入書名" required="required"></p>
+      <p><b>姓名&nbsp:&nbsp</b><input type="text" name="userName" placeholder="請填入您的姓名" required="required"></p>
+      <p><b>性別&nbsp:&nbsp</b><input type="radio" name="gender" value="boy" required="required">男<input type="radio" name="gender" value="girl" required="required">女</p>
+      <p><b>學系&nbsp:&nbsp</b>
+        <select name="department" required="required">
+          <option>資工</option>
+          <option>電機</option>
+          <option>通訊</option>
+        </select>
+      </p>
+      <p>
+        <input type="submit" value="借書">
+        <input type="reset" value="重設">
+      </p>
+    </form>
+  </body>
+</html>
